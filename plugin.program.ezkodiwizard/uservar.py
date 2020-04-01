@@ -25,7 +25,7 @@ UPDATECHECK    = 0
 # Text File with apk info in it.  Leave as 'http://' to ignore
 APKFILE        = 'https://github.com/EZKodi/EZKodiFiles/raw/master/Kodi%20APK/Apk.txt'
 # Text File with Youtube Videos urls.  Leave as 'http://' to ignore
-YOUTUBETITLE   = ''
+YOUTUBETITLE   = 'http://'
 YOUTUBEFILE    = 'http://'
 # Text File for addon installer.  Leave as 'http://' to ignore
 ADDONFILE      = 'http://'
