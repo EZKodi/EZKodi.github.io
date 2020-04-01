@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addons>
+<addon id="plugin.program.ezkodiwizard" name="[COLOR limegreen][B]EZK[/B][/COLOR]odi Wizard" version="5.0.0" provider-name="EZKodi">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>executable</provides>
+  </extension>
+  <extension point="xbmc.service" library="startup.py" start="startup" />
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">EZKodi Wizard</summary>
+    <description lang="en">EZKodi Wizard offers many maintenance features, selective add-on data saving, and automated build installs.</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon id="repository.ezkodi" name="[COLOR limegreen][B]EZK[/B][/COLOR]odi Repository" version="1.3" provider-name="EZKodi">
+    <extension point="xbmc.addon.repository" name="[COLOR limegreen][B]EZK[/B][/COLOR]odi Repository">
+        <dir>
+            <info compressed="false">https://raw.githubusercontent.com/EZKodi/ezkodi.github.io/master/zips/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/EZKodi/ezkodi.github.io/master/zips/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/EZKodi/ezkodi.github.io/master/zips/</datadir>
+        </dir>
+    </extension>
+
+    <extension point="xbmc.addon.metadata">
+        <summary>[COLOR limegreen][B]EZK[/B][/COLOR]odi Repository</summary>
+        <description>The official home of [COLOR limegreen][B]EZK[/B][/COLOR]odi Wizard.</description>
+        <disclaimer></disclaimer>
+        <platform>all</platform>
+        <assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
+        </assets>
+        <source>https://www.github.com/EZKodi/ezkodi.github.io</source>
+    </extension>
+</addon>
+</addons>
