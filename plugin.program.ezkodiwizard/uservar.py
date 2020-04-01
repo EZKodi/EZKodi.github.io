@@ -22,7 +22,7 @@ BUILDFILE = 'https://raw.githubusercontent.com/EZKodi/EZKodiFiles/master/Builds/
 # 0 being every startup of kodi
 UPDATECHECK = 0
 # Text File with apk info in it.  Leave as 'http://' to ignore
-APKFILE = 'https://raw.githubusercontent.com/EZKodi/EZKodiFiles/master/Kodi%20APK/Apk.txt'
+APKFILE = 'https://raw.githubusercontent.com/EZKodi/EZKodiFiles/master/Kodi%20APK/apk.txt'
 # Text File with Youtube Videos urls.  Leave as 'http://' to ignore
 YOUTUBETITLE = ''
 YOUTUBEFILE = 'http://'
