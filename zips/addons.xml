@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addons>
+<addon id="plugin.program.ezkodiwizard" name="EZKodiWizard" version="5.0" provider-name="EZKodi">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>executable</provides>
+  </extension>
+  <extension point="xbmc.service" library="startup.py" start="startup" />
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">EZKodiWizard</summary>
+    <description lang="en">EZKodi Wizard offers many maintenance features, selective add-on data saving, and automated build installs.</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon id="repository.ezkodi" name="EZKodi" version="1.1" provider-name="EZKodi">
+    <extension point="xbmc.addon.repository" name="EZKodi Repository">
+        <dir>
+            <info compressed="false">https://raw.githubusercontent.com/EZKodi/ezkodi.github.io/master/zips/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/EZKodi/ezkodi.github.io/master/zips/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/EZKodi/ezkodi.github.io/master/zips/</datadir>
+        </dir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>EZKodi Repository</summary>
+        <description>Repo for EZKodi addons</description>
+        <disclaimer></disclaimer>
+        <platform>all</platform>
+        <assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
+        </assets>
+    </extension>
+</addon>
+</addons>
