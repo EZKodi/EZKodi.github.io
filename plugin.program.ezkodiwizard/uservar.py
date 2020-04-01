@@ -17,12 +17,12 @@ ADDONTITLE = 'EZKodiWizard'
 BUILDERNAME    = 'EZKodi'
 EXCLUDES = [ADDON_ID, 'repository.ezkodi']
 # Text File with build info in it.
-BUILDFILE = 'http://https://raw.githubusercontent.com/EZKodi/EZKodiFiles/master/Builds/builds.txt'
+BUILDFILE = 'https://raw.githubusercontent.com/EZKodi/EZKodiFiles/master/Builds/builds.txt'
 # How often you would like it to check for build updates in days
 # 0 being every startup of kodi
 UPDATECHECK = 0
 # Text File with apk info in it.  Leave as 'http://' to ignore
-APKFILE = 'http://https://raw.githubusercontent.com/EZKodi/EZKodiFiles/master/Kodi%20APK/Apk.txt'
+APKFILE = 'https://raw.githubusercontent.com/EZKodi/EZKodiFiles/master/Kodi%20APK/Apk.txt'
 # Text File with Youtube Videos urls.  Leave as 'http://' to ignore
 YOUTUBETITLE = ''
 YOUTUBEFILE = 'http://'
